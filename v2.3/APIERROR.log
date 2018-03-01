@@ -1,0 +1,285 @@
+02/26/2018 10:20:53 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+02/26/2018 10:20:53 AM DEBUG HTTPConnectionPool(host='eabsen.kalselprov.go.id', port=80): Max retries exceeded with url: /api/triger (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05618690>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+02/26/2018 10:27:23 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+02/26/2018 10:27:23 AM DEBUG HTTPConnectionPool(host='eabsen.kalselprov.go.id', port=80): Max retries exceeded with url: /api/triger (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05618770>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+02/26/2018 10:33:34 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+02/26/2018 10:33:34 AM DEBUG HTTPConnectionPool(host='eabsen.kalselprov.go.id', port=80): Max retries exceeded with url: /api/triger (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x054177B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+02/26/2018 10:35:50 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+02/26/2018 10:35:50 AM DEBUG HTTPConnectionPool(host='eabsen.kalselprov.go.id', port=80): Max retries exceeded with url: /api/triger (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05617790>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+03/01/2018 11:36:02 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 11:36:02 AM DEBUG HTTPConnectionPool(host='eabsen.kalselprov.go.id', port=80): Max retries exceeded with url: /api/triger (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05382E50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+03/01/2018 11:36:02 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 11:36:02 AM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 11:36:02 AM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x053BC310>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 11:36:02 AM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 11:36:02 AM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 11:36:02 AM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x053BC410>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 11:36:02 AM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 11:36:02 AM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 11:36:03 AM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x053BC570>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 11:36:03 AM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 11:36:31 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 11:36:31 AM DEBUG http://eabsen.kalselprov.go.id:80 "GET /api/triger HTTP/1.1" 200 None
+03/01/2018 11:37:03 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 11:37:03 AM DEBUG http://eabsen.kalselprov.go.id:80 "GET /api/triger HTTP/1.1" 200 None
+03/01/2018 11:39:07 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 11:39:07 AM DEBUG http://eabsen.kalselprov.go.id:80 "GET /api/triger HTTP/1.1" 200 None
+03/01/2018 11:43:12 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 11:43:12 AM DEBUG http://eabsen.kalselprov.go.id:80 "GET /api/triger HTTP/1.1" 200 None
+03/01/2018 11:57:37 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 11:57:37 AM DEBUG http://eabsen.kalselprov.go.id:80 "GET /api/triger HTTP/1.1" 200 None
+03/01/2018 11:57:50 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 11:57:50 AM DEBUG http://eabsen.kalselprov.go.id:80 "GET /api/triger HTTP/1.1" 200 None
+03/01/2018 11:57:50 AM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 11:58:30 AM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 13
+03/01/2018 11:58:52 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 11:58:52 AM DEBUG http://eabsen.kalselprov.go.id:80 "GET /api/triger HTTP/1.1" 200 None
+03/01/2018 11:58:52 AM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 11:59:04 AM DEBUG ('Connection aborted.', error(10054, 'An existing connection was forcibly closed by the remote host'))
+03/01/2018 11:59:04 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 11:59:04 AM DEBUG http://eabsen.kalselprov.go.id:80 "POST /api/historycrash HTTP/1.1" 200 None
+03/01/2018 11:59:44 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 11:59:44 AM DEBUG http://eabsen.kalselprov.go.id:80 "GET /api/triger HTTP/1.1" 200 None
+03/01/2018 11:59:44 AM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 11:59:56 AM DEBUG ('Connection aborted.', error(10054, 'An existing connection was forcibly closed by the remote host'))
+03/01/2018 11:59:56 AM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 11:59:56 AM DEBUG http://eabsen.kalselprov.go.id:80 "POST /api/historycrash HTTP/1.1" 200 None
+03/01/2018 12:01:59 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:01:59 PM DEBUG http://eabsen.kalselprov.go.id:80 "GET /api/triger HTTP/1.1" 200 None
+03/01/2018 12:01:59 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:02:11 PM DEBUG ('Connection aborted.', error(10054, 'An existing connection was forcibly closed by the remote host'))
+03/01/2018 12:02:11 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:02:11 PM DEBUG http://eabsen.kalselprov.go.id:80 "POST /api/historycrash HTTP/1.1" 200 None
+03/01/2018 12:03:11 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:03:14 PM DEBUG ('Connection aborted.', error(10054, 'An existing connection was forcibly closed by the remote host'))
+03/01/2018 12:03:14 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:03:14 PM DEBUG http://eabsen.kalselprov.go.id:80 "POST /api/historycrash HTTP/1.1" 200 None
+03/01/2018 12:03:14 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:03:17 PM DEBUG ('Connection aborted.', error(10054, 'An existing connection was forcibly closed by the remote host'))
+03/01/2018 12:03:17 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:03:17 PM DEBUG http://eabsen.kalselprov.go.id:80 "POST /api/historycrash HTTP/1.1" 200 None
+03/01/2018 12:03:55 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:03:55 PM DEBUG http://eabsen.kalselprov.go.id:80 "GET /api/triger HTTP/1.1" 200 None
+03/01/2018 12:03:55 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:03:55 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:03:59 PM DEBUG ("Connection broken: error(10053, 'An established connection was aborted by the software in your host machine')", error(10053, 'An established connection was aborted by the software in your host machine'))
+03/01/2018 12:03:59 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:03:59 PM DEBUG http://eabsen.kalselprov.go.id:80 "POST /api/historycrash HTTP/1.1" 200 None
+03/01/2018 12:04:59 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:04:59 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:04:59 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:04:59 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:12:18 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:12:18 PM DEBUG http://eabsen.kalselprov.go.id:80 "GET /api/triger HTTP/1.1" 200 None
+03/01/2018 12:12:18 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:12:19 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:12:22 PM DEBUG ("Connection broken: error(10053, 'An established connection was aborted by the software in your host machine')", error(10053, 'An established connection was aborted by the software in your host machine'))
+03/01/2018 12:12:22 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:12:22 PM DEBUG http://eabsen.kalselprov.go.id:80 "POST /api/historycrash HTTP/1.1" 200 None
+03/01/2018 12:12:22 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:12:34 PM DEBUG ('Connection aborted.', error(10054, 'An existing connection was forcibly closed by the remote host'))
+03/01/2018 12:12:34 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:12:35 PM DEBUG http://eabsen.kalselprov.go.id:80 "POST /api/historycrash HTTP/1.1" 200 None
+03/01/2018 12:13:05 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:13:05 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:13:05 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:13:05 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:16:44 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:16:44 PM DEBUG http://eabsen.kalselprov.go.id:80 "GET /api/triger HTTP/1.1" 200 None
+03/01/2018 12:16:44 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:16:44 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:16:44 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:16:45 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:16:47 PM DEBUG ("Connection broken: error(10053, 'An established connection was aborted by the software in your host machine')", error(10053, 'An established connection was aborted by the software in your host machine'))
+03/01/2018 12:16:47 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:16:47 PM DEBUG http://eabsen.kalselprov.go.id:80 "POST /api/historycrash HTTP/1.1" 200 None
+03/01/2018 12:17:17 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:17:17 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:17:17 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:17:17 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:17:34 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:17:34 PM DEBUG http://eabsen.kalselprov.go.id:80 "GET /api/triger HTTP/1.1" 200 None
+03/01/2018 12:17:34 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:17:34 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:17:35 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:17:35 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:17:37 PM DEBUG ("Connection broken: error(10053, 'An established connection was aborted by the software in your host machine')", error(10053, 'An established connection was aborted by the software in your host machine'))
+03/01/2018 12:17:37 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:17:37 PM DEBUG http://eabsen.kalselprov.go.id:80 "POST /api/historycrash HTTP/1.1" 200 None
+03/01/2018 12:18:07 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:18:08 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:18:08 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:18:08 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:19:31 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:19:31 PM DEBUG HTTPConnectionPool(host='eabsen.kalselprov.go.id', port=80): Max retries exceeded with url: /api/triger (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05A2D030>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+03/01/2018 12:19:31 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:19:31 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 12:19:31 PM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05A2D4D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:19:31 PM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 12:19:31 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 12:19:31 PM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05A2D5D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:19:31 PM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 12:19:31 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 12:19:32 PM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05A2D730>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:19:32 PM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 12:20:17 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:20:17 PM DEBUG HTTPConnectionPool(host='eabsen.kalselprov.go.id', port=80): Max retries exceeded with url: /api/triger (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05212090>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+03/01/2018 12:20:17 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:20:17 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 12:20:17 PM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05212530>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:20:17 PM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 12:20:17 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 12:20:17 PM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05212630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:20:17 PM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 12:20:17 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 12:20:18 PM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05212790>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:20:18 PM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 12:22:42 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:22:42 PM DEBUG HTTPConnectionPool(host='eabsen.kalselprov.go.id', port=80): Max retries exceeded with url: /api/triger (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x056FA090>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+03/01/2018 12:22:42 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:22:42 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 12:22:42 PM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x056FA530>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:22:42 PM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 12:22:42 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 12:22:42 PM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x056FA630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:22:42 PM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 12:22:42 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 12:22:43 PM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x056FA790>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:22:43 PM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 12:23:08 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:23:08 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:23:08 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:23:08 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:29:35 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:29:35 PM DEBUG HTTPConnectionPool(host='10.10.10.10', port=80): Max retries exceeded with url: /iWsService (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05375130>: Failed to establish a new connection: [Errno 10065] A socket operation was attempted to an unreachable host',))
+03/01/2018 12:29:36 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:29:36 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 12:29:36 PM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x053754F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:29:36 PM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 12:29:36 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 12:29:36 PM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05375710>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:29:36 PM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 12:29:36 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 12:29:37 PM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05375870>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:29:37 PM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 12:29:56 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:29:56 PM DEBUG HTTPConnectionPool(host='10.10.10.10', port=80): Max retries exceeded with url: /iWsService (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x053A6130>: Failed to establish a new connection: [Errno 10065] A socket operation was attempted to an unreachable host',))
+03/01/2018 12:29:56 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:29:56 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 12:29:56 PM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x053A64F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:29:56 PM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 12:29:56 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 12:29:56 PM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x053A6710>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:29:56 PM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 12:29:56 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 12:29:57 PM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x053A6870>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:29:57 PM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 12:29:57 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:30:06 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:30:06 PM DEBUG HTTPConnectionPool(host='10.10.10.10', port=80): Max retries exceeded with url: /iWsService (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05891130>: Failed to establish a new connection: [Errno 10065] A socket operation was attempted to an unreachable host',))
+03/01/2018 12:30:06 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:30:06 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 12:30:06 PM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x058913F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:30:06 PM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 12:30:06 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 12:30:06 PM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x058916B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:30:06 PM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 12:30:06 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 12:30:07 PM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05891810>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:30:07 PM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 12:30:07 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:30:15 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:30:15 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:30:15 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:30:15 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:32:17 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:32:17 PM DEBUG HTTPConnectionPool(host='10.10.10.10', port=80): Max retries exceeded with url: /iWsService (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05A86110>: Failed to establish a new connection: [Errno 10065] A socket operation was attempted to an unreachable host',))
+03/01/2018 12:32:17 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:32:17 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 12:32:17 PM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05A864D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:17 PM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 12:32:17 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 12:32:18 PM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05A866F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:18 PM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 12:32:18 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 12:32:19 PM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05A86850>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:19 PM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 12:32:19 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:32:19 PM DEBUG HTTPConnectionPool(host='10.10.10.10', port=80): Max retries exceeded with url: /iWsService (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05A86370>: Failed to establish a new connection: [Errno 10065] A socket operation was attempted to an unreachable host',))
+03/01/2018 12:32:19 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:32:19 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 12:32:19 PM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05A86870>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:19 PM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 12:32:19 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 12:32:19 PM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05A86B70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:19 PM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 12:32:19 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 12:32:20 PM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05A86CD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:20 PM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 12:32:38 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:32:38 PM DEBUG HTTPConnectionPool(host='10.10.10.10', port=80): Max retries exceeded with url: /iWsService (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05E01110>: Failed to establish a new connection: [Errno 10065] A socket operation was attempted to an unreachable host',))
+03/01/2018 12:32:38 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:32:38 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 12:32:38 PM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05E013D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:38 PM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 12:32:38 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 12:32:38 PM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05E01690>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:38 PM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 12:32:38 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 12:32:39 PM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05E017F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:39 PM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 12:32:39 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:32:39 PM DEBUG HTTPConnectionPool(host='10.10.10.10', port=80): Max retries exceeded with url: /iWsService (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05E012F0>: Failed to establish a new connection: [Errno 10065] A socket operation was attempted to an unreachable host',))
+03/01/2018 12:32:39 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:32:39 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 12:32:39 PM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05E01810>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:39 PM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 12:32:39 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 12:32:40 PM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05E01B10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:40 PM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 12:32:40 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 12:32:40 PM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05E01C70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:40 PM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 12:32:51 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:32:51 PM DEBUG HTTPConnectionPool(host='10.10.10.10', port=80): Max retries exceeded with url: /iWsService (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05FF1110>: Failed to establish a new connection: [Errno 10065] A socket operation was attempted to an unreachable host',))
+03/01/2018 12:32:51 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:32:51 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 12:32:51 PM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05FF13D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:51 PM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 12:32:51 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 12:32:52 PM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05FF1690>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:52 PM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 12:32:52 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 12:32:53 PM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05FF17F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:53 PM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 12:32:53 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:32:53 PM DEBUG HTTPConnectionPool(host='10.10.10.10', port=80): Max retries exceeded with url: /iWsService (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05FF12F0>: Failed to establish a new connection: [Errno 10065] A socket operation was attempted to an unreachable host',))
+03/01/2018 12:32:53 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:32:53 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 12:32:53 PM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05FF1810>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:53 PM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 12:32:53 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 12:32:53 PM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05FF1B10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:53 PM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 12:32:53 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 12:32:54 PM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05FF1C70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:32:54 PM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 12:32:57 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:32:57 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:32:57 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:32:57 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:33:00 PM DEBUG HTTPConnectionPool(host='10.10.10.10', port=80): Read timed out.
+03/01/2018 12:33:00 PM DEBUG Starting new HTTP connection (1): eabsen.kalselprov.go.id
+03/01/2018 12:33:00 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=2, connect=2, read=3, redirect=None, status=None)
+03/01/2018 12:33:00 PM WARNING Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05BB1C90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:33:00 PM DEBUG Starting new HTTP connection (2): eabsen.kalselprov.go.id
+03/01/2018 12:33:00 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=1, connect=1, read=3, redirect=None, status=None)
+03/01/2018 12:33:01 PM WARNING Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05BB1EB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:33:01 PM DEBUG Starting new HTTP connection (3): eabsen.kalselprov.go.id
+03/01/2018 12:33:01 PM DEBUG Incremented Retry for (url='/api/historycrash'): Retry(total=0, connect=0, read=3, redirect=None, status=None)
+03/01/2018 12:33:01 PM WARNING Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05BCD030>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /api/historycrash
+03/01/2018 12:33:01 PM DEBUG Starting new HTTP connection (4): eabsen.kalselprov.go.id
+03/01/2018 12:33:31 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:33:32 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
+03/01/2018 12:33:32 PM DEBUG Starting new HTTP connection (1): 10.10.10.10
+03/01/2018 12:33:32 PM DEBUG http://10.10.10.10:80 "POST /iWsService HTTP/1.1" 200 None
