@@ -20,11 +20,9 @@ class execution:
     def resetall(self, IP_Address):
         if self.trigger is 1 and self.trigger is not None:
             print 'Fingerprint Akan Di Reset'
-            print Finger(IP_Address).hapussemua()
+            print Finger(IP_Address).ambilmacaddress()
         else:
             print 'failed'
-
-            
 
 execution().resetall('10.10.10.10')
 #     if Server.load('Trigger',None) is 4:

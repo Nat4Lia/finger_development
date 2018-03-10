@@ -29,10 +29,10 @@ class METHOD:
         self.Header = {'Content-Type' : 'text/xml'}
         self.comKey = 0
 
-    def POST(self, IP_Address, Payload, Timeout=None):
+    def POST(self, IP_Address, Payload, Timeout=5):
         try:
             r = requests.post('http://%s:80/iWsService' % IP_Address, headers=self.Header, data=Payload, timeout=Timeout)
-            print len(ET.fromstring(r.content))
+            # print r.content
             return ET.fromstring(r.content)
             # return ET.fromstring(r.content)
             # PIN, Name, Password, Group, Privilege, Card, PIN2, TZ0, TZ1, TZ2, TZ3 = [], [], [], [], [], [], [], [], [], [], []
@@ -102,13 +102,20 @@ class finger_command(METHOD):
 
     def ClearPegawai(self, clearcode=1):
         payload = get['ClearData'] % (self.comKey, clearcode) #$ClearCode (1=SEMUA, 2=TEMPLATE?, 3=RECORD)
-        exe = self.POST (self.IP_Address, payload, 3)
-        return
+        try:
+            r = requests.post('http://%s:80/iWsService' % self.IP_Address, headers=self.Header, data=payload, timeout=30)
+            return
+        except (requests.exceptions.RequestException, ET.ParseError, ValueError, TypeError, IndexError)  as err:
+            return
     
     def ClearAbsensi(self, clearcode=3):
         payload = get['ClearData'] % (self.comKey, clearcode) #$ClearCode (1=SEMUA, 2=TEMPLATE?, 3=RECORD)
         exe = self.POST (self.IP_Address, payload)
         return exe
+
+# template = finger_command('10.10.10.10').GetUserTemplate(1,1)
+# print len(template)
+# print template.findall('Row')
 # payload = get['GetUserInfo'] % (0,0)
 # final = json.loads(METHOD().POST('10.10.10.10',payload, None))
 # if final :
