@@ -27,7 +27,7 @@ class METHOD:
                 return None
         except (requests.exceptions.RequestException, ValueError, TypeError)  as err:
             logging.debug(err)
-            print err.__class__.__name__
+            print "Server", err.__class__.__name__
             error = {'instansi_id' : instansi_id.ID_INSTANSI, 'keterangan' : err.__class__.__name__}
             send_error(error)
             pass
@@ -41,7 +41,7 @@ class METHOD:
                 return False
         except (requests.exceptions.RequestException, ValueError, TypeError)  as err:
             logging.debug(err)
-            print err.__class__.__name__
+            print "Server", err.__class__.__name__
             error       = {'instansi_id' : instansi_id.ID_INSTANSI, 'keterangan' : err.__class__.__name__}
             send_error(error)
             pass

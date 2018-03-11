@@ -23,7 +23,7 @@ class Command:
                 rootAbsensi = self.do.GetAttLog()
                 if (rootPegawai is not None) and (rootAbsensi is not None):
                     if len(rootPegawai)==0 and len(rootAbsensi)==0:
-                        hasil ='Complete'
+                        hasil = True
                 else:
                     hasil = False
             else:
@@ -142,7 +142,7 @@ class Command:
             if hasil :
                 return hasil
             else :
-                gagal = self.hapuspegawai(pegawaiid)
+                self.hapuspegawai(pegawaiid)
                 return hasil
             
     #Fungsi Daftar Pegawai
@@ -191,7 +191,7 @@ class Command:
     def hapusabsensi(self):
         hasil = False
         try:
-            rootData    = self.do.ClearAbsensi(3)
+            self.do.ClearAbsensi(3)
             rootCheck   = self.do.GetAttLog()
             if rootCheck is not None and len(rootCheck) is 0:
                 hasil = True
@@ -230,9 +230,29 @@ class Command:
             if root is not None and len(root) is not 0:
                 PIN, Name, Password, Group, Privilege, Card, PIN2, TZ0, TZ1, TZ2, TZ3 = [], [], [], [], [], [], [], [], [], [], []
                 for row in root.findall('Row'):
-                    PIN2.append (row.find('PIN').text)
-                    Name.append (row.find('Name').text)
-                    Privilege.append (row.find('Privilege').text)
+                    if str(row.find('Privilege').text) == str(0):
+                        PIN2.append (row.find('PIN2').text)
+                        Name.append (row.find('Name').text)
+                        Privilege.append (row.find('Privilege').text)
+                data = [{'PIN' : pin, 'Name' : name, 'Privilege' : privilege} for pin, name, privilege in zip (PIN2, Name, Privilege)]
+                hasil = json.loads(json.dumps(data))
+            else:
+                hasil = False
+        finally:
+            return hasil
+
+    #Fungsi Mengambil semua data pegawai
+    def semuadataadmin(self):
+        hasil = False
+        try:
+            root = self.do.GetAllUserInfo()
+            if root is not None and len(root) is not 0:
+                PIN, Name, Password, Group, Privilege, Card, PIN2, TZ0, TZ1, TZ2, TZ3 = [], [], [], [], [], [], [], [], [], [], []
+                for row in root.findall('Row'):
+                    if str(row.find('Privilege').text) == str(14):
+                        PIN2.append (row.find('PIN2').text)
+                        Name.append (row.find('Name').text)
+                        Privilege.append (row.find('Privilege').text)
                 data = [{'PIN' : pin, 'Name' : name, 'Privilege' : privilege} for pin, name, privilege in zip (PIN2, Name, Privilege)]
                 hasil = json.loads(json.dumps(data))
             else:
